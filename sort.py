@@ -1,11 +1,8 @@
 def sort_list(input):
     input = []
     n = len(input)
-    for i in range(1, Number + 1):
-        value = int(input("Please enter the value of Elements : " %i))
-        input.append(value)
-    
-    i = 0
+
+    i = 0   
 
     while (i<n):
         j = i + 1
@@ -16,5 +13,4 @@ def sort_list(input):
                 input[j] = temp
             j = j + 1
         i = i + 1
-    print(input)
-
+    return(input)
