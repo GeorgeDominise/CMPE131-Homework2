@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 def doubler(func):
     def math():
         func()
