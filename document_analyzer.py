@@ -7,7 +7,6 @@ text = open("document.txt", encoding="utf8")
 
 for line in text:
         line = line.strip()
-        line = line.lower()
         line = line.translate(line.maketrans("", "", string.punctuation))
         words = line.split(" ")
         for word in words:
