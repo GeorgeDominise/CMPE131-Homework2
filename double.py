@@ -6,5 +6,5 @@ def doubler(func):
 
 @doubler
 def solve():
-    print("Hello, World")
+    print("Hello, world")
 solve()
