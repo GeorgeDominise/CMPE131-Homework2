@@ -4,8 +4,8 @@ def doubler(func):
         func()
     return math
 
-def solve():
+def function():
     print("Hello world.")
 
-solve = doubler(solve)
-solve()
+function = doubler(function)
+function()
