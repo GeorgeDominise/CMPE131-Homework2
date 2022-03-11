@@ -5,7 +5,7 @@ def doubler(func):
     return math
 
 def solve():
-    print("Hello, World")
+    print("Hello world.")
 
 solve = doubler(solve)
 solve()
