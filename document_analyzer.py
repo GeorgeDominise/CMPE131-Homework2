@@ -1,8 +1,9 @@
 import string
 
+d = dict()
+
 text = open("document.txt", encoding="utf8")
 
-d = dict()
 
 for line in text:
         line = line.translate(line.maketrans("", "", string.punctuation))
