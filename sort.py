@@ -5,9 +5,7 @@ def sort_list(input):
         j = 0
         while(j <= n-i-1):
             if(input[j+1] < input[j]):
-                temp = input[i]
-                input[i] = input[j]
-                input[j] = temp
+                input[j+1], input[j] = input[j], input[j+1]
             j = j + 1
         i = i + 1
     return input
